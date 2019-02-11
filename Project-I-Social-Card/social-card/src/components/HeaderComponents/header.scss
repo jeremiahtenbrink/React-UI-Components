@@ -1,0 +1,38 @@
+/* All styles for your header Components live here */
+
+.header {
+  &__logo {
+    width: 3rem;
+    padding: 1rem 0 0 0;
+    display: inline-block;
+    margin-right: 2rem;
+    margin-bottom: 3.5rem;
+
+    &-div {
+      display: inline-block;
+
+      height: 100%;
+    }
+  }
+
+  &__title {
+    display: inline-block;
+    font-size: 1rem;
+
+    h1{
+      display: inline-block;
+      margin-right: 1rem;
+    }
+    h2 {
+      display: inline-block;
+      color: lightgray;
+    }
+
+  }
+
+  &__content-container {
+    display: inline-block;
+    max-width: 60%;
+  }
+
+}
