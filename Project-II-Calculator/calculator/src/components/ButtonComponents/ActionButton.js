@@ -1,2 +1,10 @@
 import React from 'react';
-import './Button.css';
+
+const ActionButton = ( {action, fun} ) => {
+    return (
+        <div className="action-button" onClick={() => fun(action)}>{action}</div>
+    );
+};
+
+
+export default ActionButton;

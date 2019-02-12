@@ -1,0 +1,35 @@
+.big-button {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  border: 1px solid grey;
+  align-items: center;
+
+  > .number-button {
+    border: none;
+  }
+  > .action-button {
+    border: none;
+    background-color: white;
+  }
+}
+
+.number-button,
+.action-button{
+  width: 25%;
+  height: 5rem;
+  text-align: center;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+
+.action-button {
+
+  background-color: #A0001E;
+}
+
