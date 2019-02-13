@@ -1,0 +1,21 @@
+/* All styles for your Card Components live here */
+.banner{
+  &__container {
+    max-width: 60%;
+  }
+
+  &__img{
+    margin-left: 4.2rem;
+    img {
+      max-width: 50%;
+    }
+  }
+
+  &__content {
+    margin-left: 4.2rem;
+
+    p:nth-child(3){
+      color: lightgray;
+    }
+  }
+}
